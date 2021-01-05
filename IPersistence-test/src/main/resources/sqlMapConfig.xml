@@ -1,0 +1,11 @@
+<configuration>
+    <dataSource>
+        <proerty name="driverClass" value="com.mysql.jdbc.Driver"></proerty>
+        <proerty name="jdbcUrl" value="jdbc:mysql://zdy_mybatis"></proerty>
+        <proerty name="username" value="root"></proerty>
+        <proerty name="password" value="123qwe"></proerty>
+    </dataSource>
+
+    <!-- 存放mapper.xml的全路径-->
+    <mapper resource="UserMapper.xml"></mapper>
+</configuration>

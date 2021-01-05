@@ -1,0 +1,15 @@
+<mapper namespace="user">
+    <!-- sql的唯一标识:namespace.id来组成： statementId-->
+    <select id="findAll" resultType="com.masterlink.pojo.User" >
+        select * from user
+    </select>
+
+    <!--
+        User user=new User()
+        user.setId(1)
+        user.setUsername("zhangsan")
+    -->
+    <select id="findByCondition" resultType="com.masterlink.pojo.User"  paramterType="com.masterlink.pojo.User">
+        select * from user where id=#{id} and username=#{username}
+    </select>
+</mapper>

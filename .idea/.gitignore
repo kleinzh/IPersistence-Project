@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../:\架构设计\Java高薪训练营\01 第一阶段 开源框架源码剖析\模块一 持久层框架设计实现及MyBatis源码分析\IPersistence-Project\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
